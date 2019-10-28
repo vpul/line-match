@@ -1,0 +1,24 @@
+{
+  "name": "line-match",
+  "version": "1.0.0",
+  "description": "returns lines contain a pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvpul/line-match.git"
+  },
+  "keywords": [
+    "match",
+    "line",
+    "grep"
+  ],
+  "author": "Vipul Chaudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvpul/line-match/issues"
+  },
+  "homepage": "https://github.com/cvpul/line-match#readme"
+}
