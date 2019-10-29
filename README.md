@@ -2,10 +2,11 @@
 
 Returns lines matching a pattern in a string. Supports inverse operation as well, to exclude lines with matches.
 
-##Install
+## Install
+
 `$ npm install line-match`
 
-##Usage
+## Usage
 
 ```
 require('line-match');
