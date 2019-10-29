@@ -1,26 +1,36 @@
 {
   "name": "line-match",
   "version": "1.0.0",
-  "description": "returns lines contain a pattern",
+  "description": "Returns lines matching a pattern in a string. Supports inverse operation as well, to exclude lines with matches.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cvpul/line-match.git"
+    "url": "git+https://github.com/vpul/line-match.git"
   },
   "keywords": [
     "match",
     "line",
-    "grep"
+    "grep",
+    "regex",
+    "regular-expression",
+    "pattern",
+    "find",
+    "search",
+    "lines",
+    "line match",
+    "filter-lines",
+    "locate",
+    "inverse-match"
   ],
   "author": "Vipul Chaudhary",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cvpul/line-match/issues"
+    "url": "https://github.com/vpul/line-match/issues"
   },
-  "homepage": "https://github.com/cvpul/line-match#readme",
+  "homepage": "https://github.com/vpul/line-match#readme",
   "devDependencies": {
     "expect": "^24.9.0",
     "mocha": "^6.2.2"

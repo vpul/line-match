@@ -1,6 +1,6 @@
 const expect = require('expect');
 const fs = require('fs');
-const lineMatch = require('../index');
+require('../index');
 
 describe('Matching a pattern', () => {
   it('should return lines containing "green"', () => {
