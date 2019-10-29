@@ -10,29 +10,29 @@ Returns lines matching a pattern in a string. Supports inverse operation as well
 ```
 require('line-match');
 
-\`Brave New World
+`Brave New World
 Fear and Loathing in Las Vegas
 World War Z
-The Count of Monte Cristo\`.lineMatch(/World$/);  //lines ending with 'World'
+The Count of Monte Cristo`.lineMatch(/World$/);  // lines ending with 'World'
 //=> ['Brave New World']
 
 
-\`Brave New World
+`Brave New World
 Fear and Loathing in Las Vegas
 World War Z
-The Count of Monte Cristo\`.lineMatch(/World$/, {inverse: true});  //exclude lines ending with 'World'
+The Count of Monte Cristo`.lineMatch(/World$/, {inverse: true});  // exclude lines ending with 'World'
 //=> ['Fear and Loathing in Las Vegas', 'World War Z', 'The Count of Monte Cristo']
 
 
-\`black bean
+`black bean
 green apple
-dark night\`.lineMatch('apple');
+dark night`.lineMatch('apple'); // lines containing 'apple'
 //=> ['green apple']
 
 
-\`<body>
+`<body>
   <p>Fear and Loathing in <a href="https://example.com">Las Vegas</a></p>
   <a href="https://imdb.com">World War Z</a>
-</body>\`.lineMatch('https://imdb.com');
+</body>`.lineMatch('https://imdb.com');  // lines containing url 'https://imdb.com'
 //=> ['<a href="https://imdb.com">World War Z</a>']
 ```
