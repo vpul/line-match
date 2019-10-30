@@ -1,5 +1,5 @@
 {
-  "name": "line-match",
+  "name": "@vipulc/line-match",
   "version": "1.0.0",
   "description": "Returns lines matching a pattern in a string. Supports inverse operation as well, to exclude lines with matches.",
   "main": "index.js",
@@ -23,7 +23,8 @@
     "line match",
     "filter-lines",
     "locate",
-    "inverse-match"
+    "inverse-match",
+    "text-processing"
   ],
   "author": "Vipul Chaudhary",
   "license": "MIT",
