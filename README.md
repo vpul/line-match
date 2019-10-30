@@ -1,7 +1,7 @@
 # line-match
 
 ![npm (scoped)](https://img.shields.io/npm/v/@vipulc/line-match)
-![npm](https://img.shields.io/npm/dt/vipulc/line-match)
+![npm](https://img.shields.io/npm/dt/@vipulc/line-match)
 [![GitHub issues](https://img.shields.io/github/issues/vpul/line-match)](https://github.com/vpul/line-match/issues)
 [![GitHub forks](https://img.shields.io/github/forks/vpul/line-match)](https://github.com/vpul/line-match/network)
 [![GitHub stars](https://img.shields.io/github/stars/vpul/line-match)](https://github.com/vpul/line-match/stargazers)
