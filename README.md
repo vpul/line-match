@@ -15,20 +15,28 @@ Returns lines matching a pattern in a string. Supports inverse operation as well
 
 ## Usage
 
+`multiLineString.lineMatch(pattern)`
+
+## Examples
+
 ```js
-require("line-match");
+require("@vipulc/line-match");
 
 // lines ending with 'World'
-`Brave New World
-Fear and Loathing in Las Vegas
-World War Z`.lineMatch(/World$/);
+const str1 = `Brave New World
+  Fear and Loathing in Las Vegas
+  World War Z`;
+
+console.log(str1.lineMatch(/World$/));
 //=> ['Brave New World']
 
 // exclude lines ending with 'World'
-`Brave New World
-Fear and Loathing in Las Vegas
-World War Z`.lineMatch(/World$/, { inverse: true });
-//=> ['Fear and Loathing in Las Vegas', 'World War Z']
+const str2 = `Brave New World
+  Fear and Loathing in Las Vegas
+  World War Z`;
+
+console.log(str2.lineMatch(/World$/, { inverse: true }));
+//=> [ '  Fear and Loathing in Las Vegas', '  World War Z' ]
 ```
 
 ## License
