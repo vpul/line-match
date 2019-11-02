@@ -1,6 +1,6 @@
 {
   "name": "@vipulc/line-match",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns lines matching a pattern in a string. Supports inverse operation as well, to exclude lines with matches.",
   "main": "index.js",
   "scripts": {
