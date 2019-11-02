@@ -11,7 +11,7 @@ Returns lines matching a pattern in a string. Supports inverse operation as well
 
 ## Install
 
-`$ npm install line-match`
+`$ npm install @vipulc/line-match`
 
 ## Usage
 
