@@ -15,8 +15,8 @@ Returns lines matching a pattern in a string. Supports inverse operation as well
 
 ## Usage
 
-````js
-multiLineString.lineMatch(pattern)
+```js
+multiLineString.lineMatch(pattern);
 ```
 
 ## Example
@@ -44,4 +44,7 @@ console.log(str2.lineMatch(/World$/, { inverse: true }));
 ## License
 
 [MIT License](https://github.com/vpul/line-match/blob/master/LICENSE)
-````
+
+```
+
+```
