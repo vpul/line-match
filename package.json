@@ -34,6 +34,6 @@
   "homepage": "https://github.com/vpul/line-match#readme",
   "devDependencies": {
     "expect": "^24.9.0",
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   }
 }
